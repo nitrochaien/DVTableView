@@ -70,3 +70,8 @@ customView.translatesAutoresizingMaskIntoConstraints = false
 customView.heightAnchor.constraint(equalToConstant: 300).isActive = true
 setNoDataView(customView)
 ```
+
+## Want to help?
+Got a bug fix, or a new feature? Create a pull request and go for it!
+
+## Thank you and Happy coding! Cheers!
