@@ -1,6 +1,12 @@
 # DVTableView
 Fully customize UITableViewController for easier implementation and usage.
 
+## Versions
+- Swift 4.2
+- XCode 10.1
+- iOS 12
+
+
 ## Features
 
 - [x] Customizable HeaderView/FooterView.
@@ -34,7 +40,8 @@ class ItemSource {...}
 NOTE: If you want to create custom cell, you have to register that cell in **viewDidLoad()** of child viewcontroller.
 
 ### HeaderFooterView
-Simply define a view extends from **UITableViewHeaderFooterView** and call set functions
+Simply define a view extends from **UITableViewHeaderFooterView** and call set functions.
+
 NOTE: custom view must override reuseIdentifier init function
 ```swift
 override init(reuseIdentifier: String?) {...}
@@ -73,5 +80,10 @@ setNoDataView(customView)
 
 ## Want to help?
 Got a bug fix, or a new feature? Create a pull request and go for it!
+
+## Author
+**Nam Dinh Vu**
+- [Github](https://github.com/nitrochaien)
+- [LinkedIn](https://www.linkedin.com/in/andeevy/)
 
 ## Thank you and Happy coding! Cheers!
